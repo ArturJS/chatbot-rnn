@@ -1,6 +1,6 @@
 # chatbot-rnn
 
-# Run via docker under Uuntu18.04
+# Run via docker under Ubuntu 18.04
 1. Use docker
 2. `docker run -it --rm -v $PWD:/tmp -w /tmp tensorflow/tensorflow:nightly-py3 bash`
 and then in bash

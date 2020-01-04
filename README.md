@@ -1,4 +1,17 @@
 # chatbot-rnn
+
+# Run via docker under Uuntu18.04
+1. Use docker
+2. `docker run -it --rm -v $PWD:/tmp -w /tmp tensorflow/tensorflow:nightly-py3 bash`
+and then in bash
+```
+pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-2.0.0-cp36-cp36m-manylinux2010_x86_64.whl
+
+pip install tensorflow==1.14
+
+python chatbot.py
+```
+
 A toy chatbot powered by deep learning and trained on data from Reddit. Built on TensorFlow v1.4.0 and Python v3.5.1.
 
 Here is a sample chat transcript (not cherry-picked). Lines that start with ">" are me; the lines without ">" are the chatbot's responses.
